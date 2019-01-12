@@ -1,16 +1,9 @@
-.mainwrap {
+.wrap {
   margin: 0 auto;
-  max-width: 700px;
-}
-
-.edgewrap {
-  margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1000px;
 }
 
 .footer {
-  position: relative;
-  margin-top: 338px;
   text-align: center;
 }
 
@@ -19,7 +12,7 @@
   grid-template-columns: 100px 1fr;
   align-items: center;
   width: 100%;
-  margin: 10px;
+  padding-top: 10px;
 }
 
 .logo {
@@ -44,6 +37,10 @@
   color: black;
 }
 
+.banner__overlay {
+  height: 400px;
+}
+
 .banner {
   background: black;
   height: 400px;
@@ -60,15 +57,12 @@
 }
 
 .banner__bio {
-  position: absolute;
-  top: 100px;
+  margin-top: 40px;
   width: 100%;
   text-align: center;
 }
 
 .bio {
-  max-width: 800px;
-  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   color: white;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Bio from './Bio';
+
 
 class BannerImage extends Component {
   render() {
@@ -13,9 +13,6 @@ class BannerImage extends Component {
           className="banner__img"
           alt="some clouds innit"
         />
-        <div className="banner__bio">
-        {showBio ? <Bio /> : null}
-        </div>
       </div>
     );
   }
